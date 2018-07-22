@@ -8,10 +8,15 @@
     <artifactId>csvrw</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <dependencies>
+    <!--<dependencies>-->
 
-
-    </dependencies>
+        <!--<dependency>-->
+            <!--    <groupId>org.projectlombok</groupId>-->
+            <!--    <artifactId>lombok</artifactId>-->
+            <!--    <version>1.16.22</version>-->
+        <!--</dependency>-->
+            <!--  -->
+    <!--</dependencies>-->
 
     <build>
         <plugins>

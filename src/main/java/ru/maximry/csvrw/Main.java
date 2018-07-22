@@ -16,7 +16,7 @@ public class Main {
 
     public static void main(String[] args) throws NoSuchFieldException, InstantiationException, IllegalAccessException, IOException {
         List<Model> modelList = (List<Model>)(List<?>) readScvFile.read("1.csv", Model.class);
-        System.out.println(modelList.get(1).getRecord());
+        System.out.println(modelList.get(0).getRecord());
 
         List<Model> list = new ArrayList<>();
         Model model = new Model();
